@@ -1,43 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
+<?php
+$pageTitle = "index";
+require "doctype.template.php"
+?>
 <body>
 <header>
     <div>
         <img src="" alt=""> <!--logo-->
         <div>
-            <ul>
-                <li>
-                    <a href="">bonjour</a>
-                </li>
-                <li>
-                    <a href="">bonjour2</a>
-                </li>
-                <li>
-                    <a href="">bonjour3</a>
-                </li>
-                <li>
-                    <a href="">bonjour4</a>
-                </li>
+            <ul class="ulHead">
+                <li><a href="">bonjour</a></li>
+                <li><a href="">bonjour2</a></li>
+                <li><a href="">bonjour3</a></li>
+                <li><a href="">bonjour4</a></li>
             </ul>
         </div>
     </div>
     <div>
         <a href="">login</a>
-        <a href="">register</a>
+        <a href="register.php">register</a>
     </div>
 </header>
 <main>
     <div>
         <h1>Titre</h1>
         <h2>Presentation</h2>
-        <div class="maintext">
+        <div class="mainText">
             <p>
                 Lorem ipsum dolor sit amet,
                 consectetur adipiscing elit. Sed massa massa,
@@ -56,4 +43,3 @@
 
 </footer>
 </body>
-</html>
